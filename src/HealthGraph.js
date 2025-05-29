@@ -17,7 +17,7 @@ const HealthGraph = () => {
                 {data.name}
               </h2>
             </div>
-            <div className="text-blue-300">Date: {data.date}</div>
+            <div className="text-gray-400">Date: {data.date}</div>
             <div className="w-full bg-gray-200 h-2 rounded-full mt-3">
               <div
                 className="bg-red-500 h-2 rounded-full"
