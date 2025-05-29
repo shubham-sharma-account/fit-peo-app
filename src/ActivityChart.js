@@ -10,7 +10,7 @@ const ActivityChart = () => {
       </div>
       <div className="flex justify-between">
         {new Array(8).fill(1).map((_, i) => (
-          <ActivityBar data={{ h1: 16, h2: 16, h3: 20, h4: 16 }} />
+          <ActivityBar data={{ h1: 50, h2: 60, h3: 45, h4: 55 }} />
         ))}
       </div>
       <div className="mt-1 flex justify-evenly">

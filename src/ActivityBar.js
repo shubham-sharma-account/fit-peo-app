@@ -1,7 +1,6 @@
 import React from "react";
 
 const ActivityBar = ({ data }) => {
-  console.log("h1, h2, h3, h4  ", data.h4);
 
   return (
     <div className="flex justify-between items-center w-12">
