@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="bg-gray-100 w-2/12 h-full rounded-l-3xl py-14 px-16">
+    <div className="bg-gray-100 w-2/12 h-full rounded-l-3xl py-10 px-16">
       <h1 className="text-3xl font-bold font-sans text-blue-300">
         Health<span className="text-blue-950">care</span>
       </h1>
