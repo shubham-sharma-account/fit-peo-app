@@ -2,9 +2,27 @@ import React from "react";
 
 const HealthGraph = () => {
   const healthData = [
-    { id: 1, name: "Lungs", date: "26 Oct 2021", progress: 75, imageSrc:"../lungs.webp" },
-    { id: 2, name: "Teeth", date: "27 Oct 2021", progress: 75, imageSrc:"../lungs.webp" },
-    { id: 3, name: "Bone", date: "27 Oct 2021", progress: 100, imageSrc:"../lungs.webp" },
+    {
+      id: 1,
+      name: "Lungs",
+      date: "26 Oct 2021",
+      progress: 75,
+      imageSrc: "../lungs.webp",
+    },
+    {
+      id: 2,
+      name: "Teeth",
+      date: "27 Oct 2021",
+      progress: 75,
+      imageSrc: "../lungs.webp",
+    },
+    {
+      id: 3,
+      name: "Bone",
+      date: "27 Oct 2021",
+      progress: 100,
+      imageSrc: "../lungs.webp",
+    },
   ];
   return (
     <div className="w-4/12 mt-3 h-full flex flex-col justify-center">
@@ -12,7 +30,7 @@ const HealthGraph = () => {
         return (
           <div className="bg-blue-50 h-28 mb-3 rounded-3xl p-4 text-sm">
             <div className="flex justify-start items-center mb-2">
-              <img className="w-10" src={data.imageSrc} alt="health_image"/>
+              <img className="w-10" src={data.imageSrc} alt="health_image" />
               <h2 className="ml-3 text-2xl font-semibold text-blue-950">
                 {data.name}
               </h2>
